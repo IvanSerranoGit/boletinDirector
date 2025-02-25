@@ -22,7 +22,7 @@ body{
 /* 🔹 Titulos */
 .title{
     font-family: 'Patria', sans-serif;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 1.2em;
     font-weight: 400;
     
@@ -56,7 +56,7 @@ body{
 }
 .three-column-section__title{
     font-family: 'Patria', sans-serif;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 1.2em;
     font-weight: 400;
     color: #fff;
@@ -305,10 +305,17 @@ footer{
     }
     .two-column-section__column{
         margin: 0 auto;
+        width: 100%;
     }
     .video-2{
         margin-top: 20px;
         max-width: 20%;
+    }
+    .video-3{
+        width: 350px;
+    }
+    .one-column-section{
+        width: 90%;
     }
     .two-column-section__column img{
         margin: 0 auto;
@@ -359,5 +366,8 @@ footer{
     }
     .titulo-principal{
         padding: 0;
+    }
+    .order-3{
+        order: 3;
     }
 }
