@@ -24,7 +24,7 @@ body{
     font-family: 'Patria', sans-serif;
     font-size: 32px;
     line-height: 1.2em;
-    font-weight: 400;
+    font-weight: 500;
     
 }
 
@@ -35,6 +35,7 @@ body{
     margin-top: 20px;
     margin-bottom: 10px;
     line-height: 1.8;
+    font-size: 18px;
 }
 
 
@@ -99,7 +100,6 @@ body{
 }
 /* 🔹 Botón debajo del video */
 .video-section__button-container {
-    display: flex;
     justify-content: center;
     margin-top: 20px;
 }
