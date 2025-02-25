@@ -278,7 +278,7 @@ footer{
 @media (max-width: 768px) {
     .title{
         font-family: 'Patria', "Noto Sans";
-        font-size: 30px;
+        font-size: 28px;
         line-height: 1.2em;
         font-weight: 600;
     }
