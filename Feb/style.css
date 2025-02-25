@@ -54,7 +54,13 @@ body{
     margin-right: 50px;
     padding: 6px;
 }
-
+.three-column-section__title{
+    font-family: 'Patria', sans-serif;
+    font-size: 36px;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: #fff;
+}
 .banner__content {
     text-align: center;
 }
@@ -64,6 +70,13 @@ body{
     text-align: center;
     margin:  auto;
     width: 80%;
+}
+.video-section-one-column{
+    text-align: center;
+    flex-direction: column;
+}
+.video-3{
+    max-width: 900px;
 }
 
 .video-section__iframe {
@@ -139,6 +152,11 @@ body{
     width: 80%;
     margin: 150px auto;
 }
+.one-column-section{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
 .two-column-section__column{
     width: 50%;
 }
@@ -154,10 +172,14 @@ body{
 }
 
 .three-column-section--colored {
+    display: flex;
     background-color: #611232;
     padding: 40px 0;
     color: white;
     width: 100%;
+}
+.video-section-one-column{
+    display: flex;
 }
 .column{
     width: 33.33%;
@@ -238,6 +260,22 @@ body{
 .img-prueba{
     width: 800px;
 }
+footer{
+    height: 60px;
+}
+.footer-pleca {
+    background-color: #fff;
+    background-image: url(https://framework-gb.cdn.gob.mx/gobmx/img/pleca.svg);
+    background-repeat: repeat-x;
+}
+
+.container-fluid{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /* 🔹 Responsividad */
 @media (max-width: 768px) {
     .banner {
