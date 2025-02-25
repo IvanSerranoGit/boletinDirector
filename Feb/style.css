@@ -288,6 +288,9 @@ footer{
     .banner {
         flex-direction: column;
     }
+    .ideo-section{
+        width: 90%;
+    }
 
     .video-section iframe {
         height: 300px;
@@ -298,7 +301,10 @@ footer{
     .video-section__info{
         text-align: center;
         max-width: 100%;
-    
+    }
+    .image-text-section{
+        width: 90%;
+        padding: 20px;
     }
     h2{
         margin: 0;
@@ -316,7 +322,7 @@ footer{
     }
     .video-2{
         margin-top: 20px;
-        max-width: 20%;
+        max-width: 100%;
     }
     .video-3{
         width: 350px;
