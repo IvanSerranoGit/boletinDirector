@@ -1,0 +1,321 @@
+@font-face {
+    font-family: 'Patria';
+    src: url('fonts/Patria_Bold.otf') format('otf'),
+         url('fonts/Patria_Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 🔹 Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Noto Sans", serif;
+    font-size: 18px;
+    line-height: 1.7em;
+
+}
+/* 🔹 Titulos */
+.title{
+    font-family: 'Patria', sans-serif;
+    font-size: 36px;
+    line-height: 1.2em;
+    font-weight: 400;
+    
+}
+
+.titulo-principal{
+    padding: 40px 80px;
+}
+.parrafo{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+
+/* 🔹 Banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #611232;
+    color: white;
+    padding: 20px;
+}
+
+.banner__image {
+    width: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 6px;
+}
+
+.banner__content {
+    text-align: center;
+}
+
+/* 🔹 Sección de Video */
+.video-section {
+    text-align: center;
+    margin:  auto;
+    width: 80%;
+}
+
+.video-section__iframe {
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
+}
+.video-section__info{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 55%;
+
+}
+.video-principal{
+    width:1020px;
+}
+.video-section__title{
+    margin: 2rem 1rem 1rem;
+}
+/* 🔹 Botón debajo del video */
+.video-section__button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.video-section__button {
+    background-color: #611232;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+/* 🔹 Efecto hover */
+.video-section__button:hover {
+    background-color: #8a1e48;
+}
+
+.video-section{
+    margin: 0 auto;
+    width: 80%;
+}
+.two-column-section__minium{
+    width: 40%;
+}
+.video-2{
+    width:500px;
+}
+
+.btn-secodary{
+    background-color: transparent;
+    border: 2px solid #611232;
+    color:#611232;
+    padding: 10px;
+    font-size: 16px;
+    min-width: 300px;
+}
+.btn-secodary:hover{
+    background-color: #9C2348;
+    color: #fff;
+    transition: background-color 0.5s;
+}
+
+/* 🔹 Sección con Imagen y Texto */
+.image-text-section { 
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 150px auto;
+}
+.two-column-section__column{
+    width: 50%;
+}
+/* 🔹 Sección con 3 Columnas y Fondo de Color */
+.three-column-section {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.three-column-section--colored {
+    background-color: #611232;
+    padding: 40px 0;
+    color: white;
+    width: 100%;
+}
+.column{
+    width: 33.33%;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* 🔹 Sección con 4 Columnas en 2 Filas */
+.four-column-section {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.four-column-section__row {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.four-column-section__column {
+    flex: 1;
+    text-align: left;
+}
+
+.four-column-section__column--image img {
+    width: 100%;
+    max-width: auto;
+    border-radius: 8px;
+}
+/* 🔹 Sección de Ancho Completo con Imagen de Fondo */
+.full-width-section {
+    position: relative;
+    width: 100%;
+    height: 600px; /* Ajusta la altura según sea necesario */
+    background: url('./img/Recurso-1-scaled.webp') center/cover no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+/* 🔹 Filtro de opacidad sobre la imagen */
+.full-width-section__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad (0.5 es un 50%) */
+}
+
+/* 🔹 Contenido encima del fondo */
+.full-width-section__content {
+    position: relative;
+    z-index: 1; /* Asegura que el texto esté encima del filtro */
+    max-width: 80%;
+}
+
+/* 🔹 Estilos del texto */
+.full-width-section__title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.full-width-section__paragraph {
+    font-size: 18px;
+}
+.margin{
+    margin-top: 20px;
+}
+.img-prueba{
+    width: 800px;
+}
+/* 🔹 Responsividad */
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .video-section iframe {
+        height: 300px;
+    }
+    .video-principal{
+        width:100%;
+    }
+    .video-section__info{
+        text-align: center;
+        max-width: 100%;
+    
+    }
+    h2{
+        margin: 0;
+    }
+    .video-section__button{
+        width: 100%;
+    }
+    .image-text-section{
+        margin: 80px auto;
+        width: 100%;
+    }
+    .two-column-section__column{
+        width: 90%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .video-2{
+        margin-top: 20px;
+        max-width: 100%;
+    }
+    .two-column-section__column img{
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .two-column-section__minium{
+        margin-top: 10px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .three-column-section{
+        width: 95%;
+    }
+    .three-column-section,
+    .image-text-section {
+        flex-direction: column;
+    }
+    .column{
+        width: 90%;
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+    .info-text{
+        max-width: 100%;
+    }
+    .btn-secodary{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .four-column-section__row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .full-width-section {
+        height: auto;
+    }
+
+    .full-width-section__title {
+        font-size: 24px;
+    }
+
+    .full-width-section__paragraph {
+        font-size: 16px;
+    }
+    .img-prueba{
+        width: 350px;
+    }
+}
