@@ -277,7 +277,7 @@ footer{
 /* 🔹 Responsividad */
 @media (max-width: 768px) {
     .title{
-        font-family: 'Patria', sans-serif;
+        font-family: 'Patria', "Noto Sans";
         font-size: 30px;
         line-height: 1.2em;
         font-weight: 600;
