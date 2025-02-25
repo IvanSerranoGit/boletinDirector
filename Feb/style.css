@@ -142,6 +142,9 @@ body{
 .two-column-section__column{
     width: 50%;
 }
+.image50{
+    max-width: 100%;
+}
 /* 🔹 Sección con 3 Columnas y Fondo de Color */
 .three-column-section {
     display: flex;
@@ -263,13 +266,11 @@ body{
         width: 100%;
     }
     .two-column-section__column{
-        width: 90%;
-        max-width: 100%;
         margin: 0 auto;
     }
     .video-2{
         margin-top: 20px;
-        max-width: 100%;
+        max-width: 20%;
     }
     .two-column-section__column img{
         margin: 0 auto;
@@ -317,5 +318,8 @@ body{
     }
     .img-prueba{
         width: 350px;
+    }
+    .titulo-principal{
+        padding: 0;
     }
 }
