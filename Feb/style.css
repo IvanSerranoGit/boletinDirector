@@ -278,6 +278,13 @@ footer{
 
 /* 🔹 Responsividad */
 @media (max-width: 768px) {
+    .title{
+        font-family: 'Patria', sans-serif;
+        font-size: 30px;
+        line-height: 1.2em;
+        font-weight: 400;
+        
+    }
     .banner {
         flex-direction: column;
     }
