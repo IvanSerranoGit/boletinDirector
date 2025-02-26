@@ -240,7 +240,6 @@ footer{
 .footer-pleca {
     background-color: #fff;
     background-image: url(https://framework-gb.cdn.gob.mx/gobmx/img/pleca.svg);
-    background-repeat: repeat-x;
 }
 .container-fluid{
     margin-right: auto;
