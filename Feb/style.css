@@ -77,9 +77,11 @@ body{
     position: relative;
 }
 .video-section__info{
-    text-align: center;
+    display: flex;
+    text-align: left;
     margin: 0 auto;
-    max-width: 55%;
+    max-width: 80%;
+    gap: 60px;
 }
 .video-principal{
     width:1020px;
@@ -111,7 +113,7 @@ body{
     width: 80%;
 }
 .two-column-section__minium{
-    width: 40%;
+    width: 45%;
 }
 
 .btn-secodary{
@@ -135,9 +137,10 @@ body{
     margin: 100px auto;
 }
 .one-column-section{
-    text-align: center;
-    width: 70%;
+    display: flex;
+    width: 90%;
     margin: 0 auto;
+    gap: 40px;
 }
 .two-column-section__column{
     width: 50%;
@@ -271,10 +274,6 @@ footer{
     .video-principal{
         width:100%;
     }
-    .video-section__info{
-        text-align: center;
-        max-width: 100%;
-    }
     .image-text-section{
         width: 80%;
         margin: 0 auto;
@@ -293,10 +292,6 @@ footer{
     .video-2{
         margin-top: 20px;
         width: 100%;
-    }
-
-    .one-column-section{
-        width: 90%;
     }
     .two-column-section__column img{
         margin: 0 auto;
