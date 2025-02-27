@@ -68,7 +68,7 @@ body{
     flex-direction: column;
 }
 .video-3{
-    max-width: 900px;
+    max-width: 100%;
 }
 .video-section__iframe {
     width: 80%;
@@ -113,9 +113,7 @@ body{
 .two-column-section__minium{
     width: 40%;
 }
-.video-2{
-    width:500px;
-}
+
 .btn-secodary{
     background-color: transparent;
     border: 2px solid #611232;
@@ -294,11 +292,9 @@ footer{
     }
     .video-2{
         margin-top: 20px;
-        max-width: 100%;
+        width: 100%;
     }
-    .video-3{
-        width: 350px;
-    }
+
     .one-column-section{
         width: 90%;
     }
