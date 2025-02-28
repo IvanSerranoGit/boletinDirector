@@ -235,6 +235,10 @@ body{
 .img-prueba{
     width: 800px;
 }
+.columna{
+    width: 100%;
+    background-color: #9C2348;
+}
 footer{
     height: 60px;
 }
