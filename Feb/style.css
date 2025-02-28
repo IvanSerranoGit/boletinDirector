@@ -315,6 +315,14 @@ footer{
     .video-principal{
         width:100%;
     }
+    .video-section__info{
+        flex-direction: column;
+        gap: 0;
+        max-width: 90%;
+    }
+    .mobile-img{
+        order: 4;
+    }
     .image-text-section{
         width: 80%;
         margin: 0 auto;
@@ -338,6 +346,9 @@ footer{
         margin: 0 auto;
         margin-bottom: 10px;
     }
+    .one-column-section{
+        flex-direction: column;
+    }
     .two-column-section__minium{
         margin-top: 10px;
         width: 90%;
@@ -350,10 +361,19 @@ footer{
     .image-text-section {
         flex-direction: column;
     }
+    .two-column-section__column img {
+        width: 100%;
+    }
     .column{
         width: 90%;
         padding: 10px 0;
         margin: 0 auto;
+    }
+    .notas{
+        flex-direction: column;
+    }
+    .nota{
+        width: 100%;
     }
     .info-text{
         max-width: 100%;
